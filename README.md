@@ -1,6 +1,7 @@
 Author: Julian Yan  
 Date: 2/6/2019  
 Title: Stream Line  
+Summary: This program utilizes JavaFX in order to visualize a Streamline game where users must use the keyboard to manuever their square piece through obstacles to reach the final goal. As the player progresses, the levels will increase in difficulty with increased number of obstacles. 
 
 Contents: 
 * Direction.java 
