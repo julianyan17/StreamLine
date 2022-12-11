@@ -10,7 +10,7 @@ Contents:
     * int getRotationCount()
   
 * GameState.java
-  * This class includes methods that will create a game board, allow a player to navigate on the game board, place obstacles on the game board and also rotate the game board clockwise. There is also a method that prints out a visualization of the board that allows the user to see where their position, the goal and the obstacles are at. 
+  * This file creates a class that includes methods that will create a game board, allow a player to navigate on the game board, place obstacles on the game board and also rotate the game board clockwise. There is also a method that prints out a visualization of the board that allows the user to see where their position, the goal and the obstacles are at. 
     * public GameState(int height, int width, int playerRow, int playerCol, int goalRow, int goalCol)
     * GameState(GameState other)
     * void addRandomObstacles(int count)
@@ -21,7 +21,7 @@ Contents:
     * String toString()
   
 * Streamline.java
-  * This class includes methods that will create a Streamline game, allow the user to control the player in the terminal and also save the current progress of the board. There is also a method that allows the player to undo their moves. 
+  * This file creates a class that includes methods that will create a Streamline game, allow the user to control the player in the terminal and also save the current progress of the board. There is also a method that allows the player to undo their moves. 
     * Streamline()
     * Streamline(String filename)
       * void loadFromFile(String filename)
@@ -31,7 +31,7 @@ Contents:
     * void saveToFile() {
 
 * GuiStreamline.java
-  * This class creates a file that will display the Streamline game board as well as handling the key events. It includes methods that help display the board and methods to handle the movement of the player when a key is pressed.
+  * This file creates a class that creates a file that will display the Streamline game board as well as handling the key events. It includes methods that help display the board and methods to handle the movement of the player when a key is pressed.
     * int getBoardWidth()
     * int getBoardHeight()
     * double getSquareSize()
@@ -46,12 +46,12 @@ Contents:
     * void start(Stage primaryStage)
 
 * Player.java
-  * This class displays the Player on the grid. It includes methods that will create a Player object and set the size of the Player object.
+  * This file creates a class that displays the Player on the grid. It includes methods that will create a Player object and set the size of the Player object.
     * Player()
     * void setSize(double size)
 
 * RoundedSquare.java
-  * This class defines RoundedSquare objects used for the tiles and provide methods to access coordinates of tiles.
+  * This file creates a class that defines RoundedSquare objects used for the tiles and provide methods to access coordinates of tiles.
     * RoundedSquare()
     * RoundedSquare(double size)
     * RoundedSquare (double centerX, double centerY, double size)
